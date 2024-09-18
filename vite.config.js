@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/register-pps/',  // Sesuaikan dengan basename di Router
+  base: '/register-pps/',  // Sesuaikan dengan path deploy
 })
